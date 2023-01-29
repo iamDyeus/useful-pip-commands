@@ -51,6 +51,10 @@ So go ahead, bookmark this repository and never struggle to remember the right `
 ## Activating a Virtual Environment
 `<name_of_venv>/Scripts/activate.bat`
 
+## Adding Packages of Virtual Environment into a `txt` File 
+`pip freeze > requirements.txt`
+(Note: This command will only capture packages installed in the current active virtual environment. If executed outside of a virtual environment, it will add all packages installed in the global pip directory to the specified text file.)
+
 
 
 
